@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Ali | Data Scientist</title>
+    <meta name="description" content="Portfolio of Hamza Ali, Data Scientist specializing in Machine Learning and Business Intelligence.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Hamza<span>Ali</span></a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button class="hamburger" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="name">Hamza Ali</h1>
+                    <h2 class="title">Data Scientist | <span class="typing-text">Machine Learning & BI</span></h2>
+                    <p class="hook">A graduated Data Scientist turning raw data into strategic decisions, currently pursuing MS Data Science at Fast-NUCES.</p>
+                    
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <!-- TODO: Swap placeholder with actual resume PDF path -->
+                        <a href="assets/Hamza_Ali_Resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/hamza-ali-datascientist/" target="_blank" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <!-- TODO: Swap with actual GitHub link -->
+                        <a href="#" target="_blank" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="mailto:hamzaidentityoghi@gmail.com" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="assets/profile.png" alt="Hamza Ali">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I am a Data Scientist currently pursuing an MS in Data Science at Fast-NUCES, Islamabad, having graduated with a B.Sc. in Computer Science (Specialization in Data Science) from the University of Engineering & Technology (UET) Mardan. I am passionate about machine learning, artificial intelligence, and transforming raw data into actionable insights.</p>
+                    <p>With hands-on experience from multiple internships and robust academic projects, I am highly skilled in Python, SQL, Power BI, PostgreSQL, Pandas, NumPy, and Scikit-learn. I thrive on building predictive models, designing efficient database systems, and crafting interactive dashboards that drive strategic, data-driven decisions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section alt-bg">
+            <div class="container reveal">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <!-- Job 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Data Science Intern</h3>
+                            <h4>InfinityBits | Islamabad, Pakistan</h4>
+                            <span class="timeline-date">June 2024 – September 2024</span>
+                            <ul>
+                                <li>Collaborated on Power BI dashboard creation, designing KPI tracking dashboards that streamlined business reporting and reduced report generation time.</li>
+                                <li>Performed advanced data preprocessing and visualization on structured datasets to prepare data for ML modeling and statistical analysis.</li>
+                                <li>Generated actionable business insights from structured datasets supporting cross-department decisions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Job 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Data Science Intern</h3>
+                            <h4>Prodigy InfoTech | Online</h4>
+                            <span class="timeline-date">August 2024</span>
+                            <ul>
+                                <li>Performed EDA and data cleaning on real-world datasets, improving data quality by 35%.</li>
+                                <li>Built and optimized a decision tree classifier for customer purchase prediction — achieving 82% accuracy.</li>
+                                <li>Conducted NLP-based sentiment analysis on 10,000+ social media records.</li>
+                                <li>Built interactive visualizations with Matplotlib and Power BI for stakeholders.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Education & Achievements</h2>
+                
+                <div class="education-grid">
+                    <div class="card edu-card">
+                        <div class="edu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        </div>
+                        <h3>MS Data Science</h3>
+                        <h4>Fast-NUCES, Islamabad</h4>
+                        <span class="edu-date">Present</span>
+                    </div>
+
+                    <div class="card edu-card">
+                        <div class="edu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        </div>
+                        <h3>B.Sc. Computer Science (Data Science)</h3>
+                        <h4>UET Mardan</h4>
+                        <span class="edu-date">2020 – 2024</span>
+                        <p>CGPA: 3.33 / 4.00</p>
+                    </div>
+                </div>
+
+                <div class="achievements-container">
+                    <h3>Awards & Honors</h3>
+                    <ul class="achievements-list">
+                        <li><span class="badge">Scholarship</span> Merit-Based Scholarship (Only 2 awarded to class)</li>
+                        <li><span class="badge">Honor</span> Dean's Award List (Appreciation Certificate — only 5 awarded to class)</li>
+                        <li><span class="badge">1st Place</span> SmogNet Datathon Competition</li>
+                        <li><span class="badge">Grant</span> Final Year Project selected by DGST for research funding</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section alt-bg">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <div class="card project-card">
+                        <div class="project-content">
+                            <h3>Carbon Footprint Estimator System</h3>
+                            <p class="project-desc">Scalable system estimating daily carbon emissions across transportation, energy, and waste sources. Relational schema for emissions and environmental data with real-time processing and personalized sustainability dashboards.</p>
+                            <div class="tech-tags">
+                                <span>PostgreSQL</span>
+                                <span>Python</span>
+                                <span>Real-time DB</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="card project-card">
+                        <div class="project-content">
+                            <h3>Banking & Financial Intelligence System</h3>
+                            <p class="project-desc">Database with ACID transaction modeling and deadlock handling for banking operations. Includes a fraud detection ML model (94% accuracy) and real-time KPI dashboards.</p>
+                            <div class="tech-tags">
+                                <span>PostgreSQL</span>
+                                <span>Power BI</span>
+                                <span>Scikit-learn</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="card project-card">
+                        <div class="project-content">
+                            <h3>Blood Donor Prediction System</h3>
+                            <p class="project-desc">Logistic Regression model predicting donor re-donation probability. Achieved 87% sensitivity via AUC-based threshold tuning, and utilized TPOT to cut manual tuning time by 40%.</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Logistic Regression</span>
+                                <span>TPOT</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="card project-card">
+                        <div class="project-content">
+                            <h3>Bank Marketing Classification Model</h3>
+                            <p class="project-desc">Decision tree model predicting customer subscription to bank products. Improved accuracy from 75% to 88% via recursive feature elimination and correlation-based feature selection.</p>
+                            <div class="tech-tags">
+                                <span>Decision Trees</span>
+                                <span>Feature Engineering</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category card">
+                        <h3>Programming & Databases</h3>
+                        <div class="tags-container">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">C/C++</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3>Data Analytics & BI</h3>
+                        <div class="tags-container">
+                            <span class="skill-tag">EDA</span>
+                            <span class="skill-tag">Data Cleaning</span>
+                            <span class="skill-tag">Statistical Analysis</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">DAX</span>
+                            <span class="skill-tag">KPI Dashboards</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3>Machine Learning</h3>
+                        <div class="tags-container">
+                            <span class="skill-tag">Logistic Regression</span>
+                            <span class="skill-tag">Decision Trees</span>
+                            <span class="skill-tag">Random Forest</span>
+                            <span class="skill-tag">Feature Engineering</span>
+                            <span class="skill-tag">Model Evaluation</span>
+                            <span class="skill-tag">TPOT</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3>Data Engineering & Tools</h3>
+                        <div class="tags-container">
+                            <span class="skill-tag">ETL Pipelines</span>
+                            <span class="skill-tag">Data Warehousing</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Microsoft Fabric</span>
+                            <span class="skill-tag">Jupyter</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section alt-bg">
+            <div class="container reveal">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certs-container">
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>IBM:</strong> <a href="#" target="_blank" class="cert-link">Introduction to Data Science Specialization</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>IBM:</strong> <a href="#" target="_blank" class="cert-link">Data Science Specialization (7 courses)</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>Google:</strong> <a href="#" target="_blank" class="cert-link">Crash Course on Python</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>Microsoft:</strong> <a href="#" target="_blank" class="cert-link">Data Analysis & Visualization with Power BI</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>University of Michigan:</strong> <a href="#" target="_blank" class="cert-link">Python Data Structures</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>University of Michigan:</strong> <a href="#" target="_blank" class="cert-link">Programming for Everybody (Getting Started with Python)</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>DeepLearning.AI:</strong> <a href="#" target="_blank" class="cert-link">AI For Everyone</a></span>
+                    </div>
+                    <div class="cert-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cert-icon"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span><strong>Google:</strong> <a href="#" target="_blank" class="cert-link">Foundations: Data, Data, Everywhere</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:hamzaidentityoghi@gmail.com">hamzaidentityoghi@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>+92 312-059733</span>
+                        </div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Islamabad, Pakistan</span>
+                        </div>
+                    </div>
+
+                    <!-- Note: This form uses a mailto fallback. It can be easily swapped for Formspree or a real backend -->
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/hamza-ali-datascientist/" target="_blank" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="#" target="_blank" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </div>
+            <p>&copy; <span id="year"></span> Hamza Ali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
